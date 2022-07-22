@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title='Sales Dashboard',
                    layout='wide')
 
-df = pd.read_csv(r'C:\Users\asus\Downloads\Masked_Excel_DB.csv')
+df = pd.read_csv('Masked_Excel_DB.csv')
 
 # ----SIDEBAR----
 st.sidebar.header('Please filter here:')
